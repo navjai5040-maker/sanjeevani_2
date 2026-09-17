@@ -1,0 +1,8 @@
+{
+  "name": "@sanjeevani/notifications",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "lint": "echo 'Notifications service placeholder'"
+  }
+}

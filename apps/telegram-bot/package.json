@@ -1,0 +1,10 @@
+{
+  "name": "@sanjeevani/telegram-bot",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "mock": "python bot.py --mock --script /start 1 \"chest pain\" 1 referral 4 complete",
+    "lint": "python -m py_compile bot.py conversation_engine.py test_bot.py",
+    "test": "python -m unittest discover -s . -p \"test_*.py\""
+  }
+}

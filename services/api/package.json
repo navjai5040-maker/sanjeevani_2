@@ -1,0 +1,9 @@
+{
+  "name": "@sanjeevani/api",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "uvicorn services.api.app.main:app --reload",
+    "lint": "python -m compileall ."
+  }
+}
